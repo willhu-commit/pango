@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/PaloAltoNetworks/pango/testdata"
+	"github.com/willhu-commit/pango/testdata"
 )
 
 func TestPanoNormalization(t *testing.T) {

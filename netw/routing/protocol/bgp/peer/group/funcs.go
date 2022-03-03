@@ -3,9 +3,9 @@ package group
 import (
 	"fmt"
 
-	"github.com/PaloAltoNetworks/pango/namespace"
-	"github.com/PaloAltoNetworks/pango/util"
-	"github.com/PaloAltoNetworks/pango/version"
+	"github.com/willhu-commit/pango/namespace"
+	"github.com/willhu-commit/pango/util"
+	"github.com/willhu-commit/pango/version"
 )
 
 func versioning(v version.Number) (normalizer, func(Entry) interface{}) {
